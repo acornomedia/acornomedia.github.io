@@ -2,8 +2,8 @@
 layout: post
 title:  "Have you started using Github Pages?"
 date:   2015-11-24
-category: "Website Hosting"
-tags: ["GitHub Pages", "Jekyll"]
+category: "Website hosting"
+tags: ["Github Pages", "Jekyll"]
 ---
 
 Have you started using [Github Pages](https://pages.github.com/) to host your static site(s) for free? If not, embark on this journey to discover more about [Github Pages](https://pages.github.com/) which is truly a hidden gem among the plethora of website hosts.
