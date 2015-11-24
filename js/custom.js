@@ -2,7 +2,6 @@
 jQuery(document).ready(function($) {
 "use strict";
 
-
 	(function() {
 
 		var $menu = $('.navigation nav'),
@@ -116,9 +115,11 @@ jQuery(document).ready(function($) {
 				}
 			});
 
-		//link scrollables
-		$('.navbar a').smoothScroll();
-		$('.link-list a').smoothScroll();
+		//link scrollables (only for index page)
+		if (window.location.pathname === '/index.html' || window.location.pathname === '/'){
+			$('.navbar a').smoothScroll();
+			$('.link-list a').smoothScroll();
+		}
 		
 		//scroll to top
 		$(window).scroll(function(){

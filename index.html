@@ -1,965 +1,119 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Acorno Media - Websites, Applications, Mobile Apps, IT Systems in Singapore</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="Acorno Media provides technological solutions that can help chart your online strategy and amplify your digital presence." />
-<meta name="keywords" content="acorno, media, website, application, mobile, design, online, cms, ecommerce, crm, erp, digital, wordpress, responsive, webpage, blog, system, functional, pretty, ui, ux, interactive, social, media, customizable, solutions, comprehensive, html, javascript, css">
-<meta name="author" content="Eric Lu" />
-<!-- css -->
+---
+layout: default
+title: Acorno Media - Websites, Applications, Mobile Apps, IT Systems in Singapore
+---
 
-<!-- <link href="css/bootstrap.min.css" rel="stylesheet" />
-<link href="css/bootstrap-responsive.min.css" rel="stylesheet" /> -->
+{% include featured.html %}
 
-<link href="css/royalslider/royalslider.min.css" rel="stylesheet" />
-<link class="rs-file" href="css/royalslider/skins/minimal-white/rs-minimal-white.min.css" rel="stylesheet">
-<link href="css/fancybox/jquery.fancybox.min.css" rel="stylesheet">
-<link href="css/jcarousel.min.css" rel="stylesheet" />
-<link rel="stylesheet" href="css/touchcarousel/touchcarousel.css">
-<link rel="stylesheet" href="css/touchcarousel/black-and-white-skin/black-and-white-skin.css">
+{% include callaction.html %}
 
-<link href="http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700" rel="stylesheet" />
+{% include services.html %}
 
-<!-- <link href="css/font-awesome.min.css" rel="stylesheet" />
-<link href="css/custom-fonts.min.css" rel="stylesheet" />
-<link href="css/overwrite.min.css" rel="stylesheet" />
-<link href="css/animate.min.css" rel="stylesheet" />
-<link href="css/style.min.css" rel="stylesheet" /> -->
+{% include packages.html %}
 
-<link href="css/combined.min.css" rel="stylesheet" />
-<link href="css/minion.css" rel="stylesheet" />
-<style>
-.touchcarousel {
-    width: 100%;
-    height: 75px;
-}
-.touchcarousel.black-and-white .arrow-icon.left:hover, .touchcarousel.black-and-white .arrow-icon.right:hover {
-    -webkit-transition: all .5s ease-out;
-    -moz-transition: all .5s ease-out;
-    -o-transition: all .5s ease-out;
-    transition: all .5s ease-out;
-    background-color: rgba(154, 196, 60, 1);
-}
-</style>
+{% include email.html %}
 
-<!-- Theme skin -->
-<link id="t-colors" href="skins/green.min.css" rel="stylesheet" />
-<!-- boxed bg -->
-<link id="bodybg" href="bodybg/bg1.css" rel="stylesheet" type="text/css" />
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-<!-- Fav and touch icons -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png" />
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png" />
-<link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png" />
-<link rel="shortcut icon" href="ico/favicon.png" />
-</head>
-<body>
-<!--[if lt IE 7]>
-    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
-<div id="wrapper">
-	<!-- toggle top area -->
-	<div class="hidden-top">
-		<div class="hidden-top-inner container minion-container">
-			    <!-- <h1>Minions in Pure CSS</h1> -->
-
-                <div class="bill">
-
-                  <div class="lights">
-                    <span class="white_light"></span>
-                    <span class="dark_light"></span>
-                  </div>
-                  <div class="hair">
-                    <span class="hair1"></span>
-                    <span class="hair1 make_it_left_hair1"></span>
-                    <span class="hair2"></span>
-                  </div>
-
-                  <div class="eyes">
-                    <div class="eye_animate"></div>
-
-                    <div class="glasses"></div>
-                    <div class="white_part">
-                      <div class="brown_eye">
-                        <span class="black_part"></span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="black_tie">
-                    <span class="right_tie">
-                                    <div class="top_tie"></div>
-                                    <div class="down_tie"></div>
-                                </span>
-                    <span class="left_tie">
-                                    <div class="top_tie"></div>
-                                    <div class="down_tie"></div>
-                                </span>
-                  </div>
-
-                  <div class="smile"></div>
-
-                  <div class="arm"></div>
-                  <div class="hand"><span class="hand_parts"><span></div>
-
-                            <div class="arm make_it_right_arm"></div>
-                            <div class="hand make_it_right_hand"><span class="hand_parts"><span></div>
-
-                            <div class="curves">
-                                <span class="curve1"></span>
-                    <span class="curve1 make_it_left_curve"></span>
-                    <span class="curve2"></span>
-                  </div>
-
-                  <div class="clothes">
-                    <div class="main"></div>
-                    <div class="blue_borders"></div>
-                    <div class="right_shirt"></div>
-                    <div class="right_shirt make_it_left"></div>
-                    <div class="bottom"></div>
-                  </div>
-
-                  <div class="pocket">
-                    <div class="minion-logo"></div>
-                    <span class="lines"></span>
-                  </div>
-
-                  <div class="legs">
-                    <div class="right_leg"></div>
-                    <div class="right_leg make_it_left_leg"></div>
-                    <div class="shoes"><span class="small_shoes"></span></div>
-                    <div class="shoes make_it_left_shoes"><span class="small_shoes"></span></div>
-                  </div>
-
-                  <h2>Bill</h2>
-                </div>
-
-
-                <div class="jerry">
-
-                  <div class="lights">
-                    <span class="white_light"></span>
-                    <span class="dark_light"></span>
-                  </div>
-                  <div class="jerry_hair">
-                    <ul>
-                      <li class="h1"></li>
-                      <li class="h2"></li>
-                      <li class="h3"></li>
-                      <li class="h4"></li>
-                      <li class="h5"></li>
-                      <li class="h6"></li>
-                      <li class="h7"></li>
-                      <li class="h8"></li>
-                      <li class="h9"></li>
-                      <li class="h10"></li>
-                      <li class="h11"></li>
-                      <li class="h12"></li>
-                    </ul>
-                  </div>
-
-                  <div class="eyes1">
-                    <div class="eye_animate"></div>
-
-                    <div class="glasses"></div>
-                    <div class="white_part">
-                      <div class="brown_eye">
-                        <span class="black_part"></span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="eyes2">
-                    <div class="eye_animate"></div>
-
-                    <div class="glasses"></div>
-                    <div class="white_part">
-                      <div class="brown_eye">
-                        <span class="black_part"></span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="jerry_hand">
-                    <div class="jerry_lh"></div>
-                    <div class="animated_lh">
-                      <span class="gloves_lh"></span>
-                      <span class="gloves_lh2"></span>
-                    </div>
-
-                    <div class="jerry_rh"></div>
-                    <span class="gloves_rh"></span>
-                  </div>
-
-                  <div class="black_tie">
-                    <span class="right_tie">
-                                    <div class="top_tie"></div>
-                                    <div class="down_tie"></div>
-                                </span>
-                    <span class="left_tie">
-                                    <div class="top_tie"></div>
-                                    <div class="down_tie"></div>
-                                </span>
-                  </div>
-
-                  <div class="jerry_smile">
-                    <span class="teeth1"></span>
-                    <span class="teeth2"></span>
-                  </div>
-
-                  <div class="curves">
-                    <span class="jerry_curve1"></span>
-                    <span class="jerry_curve1 jerry_left_curve"></span>
-                    <span class="jerry_curve2"></span>
-                  </div>
-
-                  <div class="clothes">
-                    <div class="main_jerry"></div>
-                    <div class="right_shirt jerry_right_shirt"></div>
-                    <div class="right_shirt jerry_left_shirt"></div>
-                    <div class="jerry_bottom"></div>
-                  </div>
-
-                  <div class="pocket">
-                    <div class="minion-logo"></div>
-                    <span class="lines"></span>
-                  </div>
-
-                  <div class="legs">
-                    <div class="jerry_shoes"><span class="jerry_small_shoes"></span></div>
-                    <div class="jerry_shoes jerry_left_shoes"><span class="jerry_small_shoes"></span></div>
-                  </div>
-
-                  <h2>Jerry</h2>
-
-
-                </div>
-
-
-                <div class="evil">
-
-                  <ul class="evil_hair">
-                    <li class="eh1"></li>
-                    <li class="eh2"></li>
-                    <li class="eh3"></li>
-                    <li class="eh4"></li>
-                    <li class="eh5"></li>
-                  </ul>
-
-                  <div class="eyes">
-                    <div class="eye_animate"></div>
-
-                    <div class="glasses"></div>
-                    <div class="white_part">
-                      <div class="brown_eye">
-                        <span class="black_part"></span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="black_tie">
-                    <span class="right_tie">
-                                    <div class="top_tie"></div>
-                                    <div class="down_tie"></div>
-                                </span>
-                    <span class="left_tie">
-                                    <div class="top_tie"></div>
-                                    <div class="down_tie"></div>
-                                </span>
-                  </div>
-
-                  <div class="evil_mouth">
-                    <span class="evil_teeth"></span>
-                    <span class="evil_teeth1"></span>
-                  </div>
-
-                  <div class="clothes">
-                    <div class="right_shirt evil_right_shirt"></div>
-                    <div class="right_shirt evil_left_shirt"></div>
-                    <div class="evil_bottom"></div>
-                    <div class="evil_logo">
-                      <p>M</p>
-                    </div>
-                  </div>
-
-                  <div class="legs">
-                    <div class="evil_right_leg"></div>
-                    <div class="evil_right_leg evil_left_leg"></div>
-                    <div class="shoes evil_right_shoes"><span class="small_shoes"></span></div>
-                    <div class="shoes evil_left_shoes"><span class="small_shoes"></span></div>
-                  </div>
-
-
-                  <div class="evil_hand">
-                    <div class="evil_rh">
-                      <span class="evil_gloves_rh"></span>
-                    </div>
-                    <div class="evil_lh">
-                      <span class="evil_gloves_lh"></span>
-                    </div>
-                  </div>
-
-                  <h2>Evil</h2>
-
-                </div>
-            </div>
-		</div>
-	</div>
-	<!-- end toggle top area -->
-	<!-- start header -->
-	<header>
-	<div class="container ">
-		<!-- hidden top area toggle link -->
-		<div id="header-hidden-link" class="e_tada animated tada">
-			<a href="#" class="toggle-link" title="Click me you'll get a surprise" data-target=".hidden-top"><i></i>Open</a>
-		</div>
-		<!-- end toggle link -->
-		<div class="row nomargin">
-			<div class="span12">
-				<div class="headnav">
-					<ul>
-					    <li><a href="#requestQuote" data-toggle="modal">Request a quote</a></li>
-					</ul>
-				</div>
-				<!-- Request Quote Modal -->
-                <div id="requestQuote" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="requestQuoteModalLabel" aria-hidden="true">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                        <h4 id="requestQuoteModalLabel">Request a <strong>quote</strong></h4>
-                    </div>
-                    <div class="modal-body">
-                        <form class="form-horizontal" action="//formspree.io/admin@acornomedia.com" method="POST">
-                            <div class="control-group">
-                                <label class="control-label" for="requestQuoteEmail">Email</label>
-                                <div class="controls">
-                                    <input type="email" name="requestQuoteEmail" id="requestQuoteEmail" placeholder="Email">
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="controls">
-                                    <button type="submit" class="btn" aria-hidden="true">Submit</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <!-- end request quote modal -->
-			</div>
-		</div>
-		<div class="row">
-			<div class="span4">
-				<div class="logo">
-					<a href="/"><img src="img/logo.png" alt="" class="logo" /></a>
-					<div style="clear:both;"></div>
-					<h1>Simplifying technology and design</h1>
-				</div>
-			</div>
-			<div class="span8">
-				<div class="navbar navbar-static-top">
-					<div class="navigation">
-						<nav>
-						<ul class="nav topnav">
-							<li>
-                            <a href="#services">Services</a>
-                            </li>
-							<li>
-                            <a href="#packages">Website Packages</a>
-                            </li>
-							<li>
-              <a href="#email">Email Marketing</a>
-              </li>
-              <li>
-							<a href="#portfolio">Clients</a>
-							</li>
-							<li>
-							<a href="#contact">Contact</a>
-							</li>
-						</ul>
-						</nav>
-					</div>
-					<!-- end navigation -->
-				</div>
-			</div>
-		</div>
-	</div>
-	</header>
-	<!-- end header -->
-	<section id="featured">
-	<!-- start slider -->
-	<!-- Slider -->
-	<div id="full-width-slider" class="royalSlider heroSlider rsMinW">
-        <div class="rsContent">
-            <img class="rsImg" src="img/slides/bg-1.jpg" alt="One fits all">
-            <div class="infoBlock infoBlockLeftBlack rsABlock" data-fade-effect="" data-move-offset="10" data-move-effect="bottom" data-speed="200">
-                <h2>One fits <strong>all</strong></h2>
-                <p>
-                    No more worrying about finding separate solutions for the desktop, laptop, tablet and mobile phone. We provide the comprehensive solution to fit them all.
-                </p>
-            </div>
-        </div>
-        <div class="rsContent">
-            <img class="rsImg" src="img/slides/bg-2.jpg" alt="Fully interactive">
-            <div class="infoBlock infoBlockLeftBlack rsABlock" data-fade-effect="" data-move-offset="10" data-move-effect="bottom" data-speed="200">
-                <h2>Fully <strong>interactive</strong></h2>
-                <p>
-                    Your online content needs to engage your customer. Our interactive website interfaces will captivate your potential clients.
-                </p>
-            </div>
-        </div>
-        <div class="rsContent">
-            <img class="rsImg" src="img/slides/bg-3.jpg" alt="Simple and customizable">
-            <div class="infoBlock rsABlock infoBlockLeftBlack" data-fade-effect="" data-move-offset="10" data-move-effect="bottom" data-speed="200">
-                <h2>Most <strong>reliable</strong> email marketing</h2>
-                <p>
-                    We ensure your marketing emails get delivered reliably at cost effective prices.
-                </p>
-            </div>
-        </div>
-    </div>
-	<!-- end slider -->
-	</section>
-	<section class="callaction">
-	<div class="container">
-		<div class="row">
-			<div class="span12">
-				<div class="big-cta">
-					<div class="cta-text">
-						<!-- <h3>We provide the most <span class="highlight"><strong>comprehensive</strong></span> solution to creating your online presence at the most <span class="highlight"><strong>affordable</strong></span> price!</h3> -->
-                        <h3>We make technology and design <span class="highlight"><strong>simple</strong></span> and <span class="highlight"><strong>effortless</strong></span> for you!</h3>
-					</div>
-					<div class="cta floatright">
-						<a class="btn btn-large btn-theme btn-rounded" href="#requestQuote" data-toggle="modal">Request a quote</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</section>
-	<section id="services">
-	<div class="container">
-		<div class="row">
-			<div class="span12">
-				<div class="row">
-					<div class="span3">
-                        <div class="box aligncenter">
-                            <div class="aligncenter icon">
-                                <i class="icon-picture icon-circled icon-64 active"></i>
-                            </div>
-                            <div class="text">
-                                <h6>Creative UI/UX Design</h6>
-                            </div>
-                        </div>
-                    </div>
-					<div class="span3">
-						<div class="box aligncenter">
-							<div class="aligncenter icon">
-								<i class="icon-align-justify icon-circled icon-64 active"></i>
-							</div>
-							<div class="text">
-								<h6>Content Management Systems (CMS)</h6>
-							</div>
-						</div>
-					</div>
-					<div class="span3">
-                        <div class="box aligncenter">
-                            <div class="aligncenter icon">
-                                <i class="icon-shopping-cart icon-circled icon-64 active"></i>
-                            </div>
-                            <div class="text">
-                                <h6>E-commerce</h6>
-                            </div>
-                        </div>
-                    </div>
-					<div class="span3">
-                        <div class="box aligncenter">
-                            <div class="aligncenter icon">
-                                <i class="icon-mobile-phone icon-circled icon-64 active"></i>
-                            </div>
-                            <div class="text">
-                                <h6>Mobile Applications</h6>
-                            </div>
-                        </div>
-                    </div>
-				</div>
-                <div class="row">
-                    <div class="span3">
-                        <div class="box aligncenter">
-                            <div class="aligncenter icon">
-                                <i class="icon-bullhorn icon-circled icon-64 active"></i>
-                            </div>
-                            <div class="text">
-                                <h6>Social / Digital Marketing</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="span3">
-                        <div class="box aligncenter">
-                            <div class="aligncenter icon">
-                                <i class="icon-search icon-circled icon-64 active"></i>
-                            </div>
-                            <div class="text">
-                                <h6>Search Engine Optimisation (SEO)</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="span3">
-                        <div class="box aligncenter">
-                            <div class="aligncenter icon">
-                                <i class="icon-envelope icon-circled icon-64 active"></i>
-                            </div>
-                            <div class="text">
-                                <h6>EDM Email Marketing</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="span3">
-                        <div class="box aligncenter">
-                            <div class="aligncenter icon">
-                                <i class="icon-cloud icon-circled icon-64 active"></i>
-                            </div>
-                            <div class="text">
-                                <h6>Cloud Hosting</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="span3">
-                        <div class="box aligncenter">
-                            <div class="aligncenter icon">
-                                <i class="icon-lightbulb icon-circled icon-64 active"></i>
-                            </div>
-                            <div class="text">
-                                <h6>Smart Technologies / Artificial Intelligence</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="span3">
-                        <div class="box aligncenter">
-                            <div class="aligncenter icon">
-                                <i class="icon-link icon-circled icon-64 active"></i>
-                            </div>
-                            <div class="text">
-                                <h6>Enterprise Resource Planning (ERP)</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="span3">
-                        <div class="box aligncenter">
-                            <div class="aligncenter icon">
-                                <i class="icon-group icon-circled icon-64 active"></i>
-                            </div>
-                            <div class="text">
-                                <h6>Customer Relationship Management (CRM)</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="span3">
-                        <div class="box aligncenter">
-                            <div class="aligncenter icon">
-                                <i class="icon-hdd icon-circled icon-64 active"></i>
-                            </div>
-                            <div class="text">
-                                <h6>Office Servers / Infrastructure</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-			</div>
-		</div>
-        <!-- divider -->
-        <div class="row">
-            <div class="span12">
-                <div class="solidline">
-                </div>
-            </div>
-        </div>
-        <!-- end divider -->
-    </div>
-    </section>
-    <section id="packages">
-    <div class="container">
-        <div class="row">
-            <div class="span12">
-                <h4>Our simplified <strong>website packages</strong></h4>
-            </div>
-            <div class="span12">
-                <div class="span6">
-                    <ul>
-                        <li>Packages do not include domain and hosting prices.</li>
-                        <!--<li>Foreign currencies (other than SGD) are only approximates of the final prices.</li>-->
-                        <li>Additional modules may be requested as add-ons which may incur additional costs.</li>
-                    </ul>
-                </div>
-                <!--
-                <div class="floatright form-inline">
-                    <label for="currency">Currency: </label>
-                    <select id="currency" name="currency" class="input-small">
-                        <option value="AUD">AUD</option>
-                        <option value="BRL">BRL</option>
-                        <option value="CAD">CAD</option>
-                        <option value="CHF">CHF</option>
-                        <option value="CZK">CZK</option>
-                        <option value="DKK">DKK</option>
-                        <option value="EUR">EUR</option>
-                        <option value="GBP">GBP</option>
-                        <option value="HKD">HKD</option>
-                        <option value="HUF">HUF</option>
-                        <option value="ILS">ILS</option>
-                        <option value="JPY">JPY</option>
-                        <option value="MXN">MXN</option>
-                        <option value="MYR">MYR</option>
-                        <option value="NOK">NOK</option>
-                        <option value="NZD">NZD</option>
-                        <option value="PHP">PHP</option>
-                        <option value="PLN">PLN</option>
-                        <option value="SEK">SEK</option>
-                        <option value="SGD" selected>SGD</option>
-                        <option value="THB">THB</option>
-                        <option value="TRY">TRY</option>
-                        <option value="TWD">TWD</option>
-                        <option value="USD">USD</option>
-                    </select>
-                </div>
-                -->
-            </div>
-            <div class="span3">
-                <div class="pricing-box-alt">
-                    <div class="pricing-heading">
-                        <h3>Very <strong>Basic</strong></h3>
-                    </div>
-                    <!--
-                    <div class="pricing-terms" data-price="499">
-                        <h6>499 SGD</h6>
-                    </div>
-                    -->
-                    <div class="pricing-content">
-                        <ul>
-                            <li><i class="icon-ok"></i> Limited pages</li>
-                            <li><i class="icon-ok"></i> Basic website design</li>
-                            <li><i class="icon-ok"></i> Ready support available</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-action">
-                        <a href="#requestQuote" data-toggle="modal" class="btn btn-medium btn-theme"><i class="icon-bolt"></i> Ask Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="span3">
-                <div class="pricing-box-alt">
-                    <div class="pricing-heading">
-                        <h3>With <strong>CMS</strong></h3>
-                    </div>
-                    <!--
-                    <div class="pricing-terms" data-price="699">
-                        <h6>699 SGD</h6>
-                    </div>
-                    -->
-                    <div class="pricing-content">
-                        <ul>
-                            <li><i class="icon-ok"></i> Unlimited pages</li>
-                            <li><i class="icon-ok"></i> Basic website design</li>
-                            <li><i class="icon-ok"></i> Content Management System</li>
-                            <li><i class="icon-ok"></i> Ready support available</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-action">
-                        <a href="#requestQuote" data-toggle="modal" class="btn btn-medium btn-theme"><i class="icon-bolt"></i> Ask Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="span3">
-                <div class="pricing-box-alt">
-                    <div class="pricing-heading">
-                        <h3><strong>E-commerce</strong></h3>
-                    </div>
-                    <!--
-                    <div class="pricing-terms" data-price="1199">
-                        <h6>1199 SGD</h6>
-                    </div>
-                    -->
-                    <div class="pricing-content">
-                        <ul>
-                            <li><i class="icon-ok"></i> Unlimited pages</li>
-                            <li><i class="icon-ok"></i> Basic website design</li>
-                            <li><i class="icon-ok"></i> Content Management System</li>
-                            <li><i class="icon-ok"></i> Inventory Management System</li>
-                            <li><i class="icon-ok"></i> E-Payment System</li>
-                            <li><i class="icon-ok"></i> Ready support available</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-action">
-                        <a href="#requestQuote" data-toggle="modal" class="btn btn-medium btn-theme"><i class="icon-bolt"></i> Ask Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="span3">
-                <div class="pricing-box-alt special">
-                    <div class="pricing-heading">
-                        <h3><strong>Customized</strong></h3>
-                    </div>
-                    <!--
-                    <div class="pricing-terms">
-                        <h6>---</h6>
-                    </div>
-                    -->
-                    <div class="pricing-content">
-                        <ul>
-                            <li><i class="icon-ok"></i> Unlimited pages</li>
-                            <li><i class="icon-ok"></i> Basic website design</li>
-                            <li><i class="icon-ok"></i> Enterprise-grade System</li>
-                            <li><i class="icon-ok"></i> Ready support available</li>
-                            <li><i class="icon-ok"></i> Choice of development languages/frameworks</li>
-                            <li><i class="icon-ok"></i> Many more features...</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-action">
-                        <a href="#requestQuote" data-toggle="modal" class="btn btn-medium btn-theme"><i class="icon-bolt"></i> Ask Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- divider -->
-        <div class="row">
-            <div class="span12">
-                <div class="solidline">
-                </div>
-            </div>
-        </div>
-        <!-- end divider -->
-    </div>
-    </section>
-    <section id="email">
-    <div class="container">
-        <div class="row">
-            <div class="span12">
-                <h4>Our cheap <strong>email marketing campaign services</strong></h4>
-            </div>
-            <div class="span12">
-                <div class="span6">
-                    <ul>
-                        <li>HTML newsletter design or conversion is charged separately.</li>
-                        <li>Below are costs per email.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="span3">
-                <div class="pricing-box-alt">
-                    <div class="pricing-heading">
-                        <h3><strong>Starter</strong></h3>
-                    </div>
-                    
-                    <div class="pricing-terms" data-price="0.005">
-                        <h6>0.01 SGD</h6>
-                    </div>
-                    
-                    <div class="pricing-content">
-                        <ul>
-                            <li><i class="icon-ok"></i> &lt; 25,000 emails</li>
-                            <li><i class="icon-ok"></i> Unlimited subscribers</li>
-                            <li><i class="icon-ok"></i> Real-time tracking (opens, clicks, bounces, unsubscribes)</li>
-                            <li><i class="icon-ok"></i> Email authentication</li>
-                            <li><i class="icon-ok"></i> Unlimited support</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-action">
-                        <a href="#requestQuote" data-toggle="modal" class="btn btn-medium btn-theme"><i class="icon-bolt"></i> Ask Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="span3">
-                <div class="pricing-box-alt">
-                    <div class="pricing-heading">
-                        <h3><strong>Growing</strong></h3>
-                    </div>
-                    
-                    <div class="pricing-terms" data-price="0.0045">
-                        <h6>0.009 SGD</h6>
-                    </div>
-                    
-                    <div class="pricing-content">
-                        <ul>
-                            <li><i class="icon-ok"></i> &lt; 100,000 emails</li>
-                            <li><i class="icon-ok"></i> Unlimited subscribers</li>
-                            <li><i class="icon-ok"></i> Real-time tracking (opens, clicks, bounces, unsubscribes)</li>
-                            <li><i class="icon-ok"></i> Email authentication</li>
-                            <li><i class="icon-ok"></i> Unlimited support</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-action">
-                        <a href="#requestQuote" data-toggle="modal" class="btn btn-medium btn-theme"><i class="icon-bolt"></i> Ask Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="span3">
-                <div class="pricing-box-alt">
-                    <div class="pricing-heading">
-                        <h3><strong>High Volume</strong></h3>
-                    </div>
-                    
-                    <div class="pricing-terms" data-price="0.00375">
-                        <h6>0.0075 SGD</h6>
-                    </div>
-                    
-                    <div class="pricing-content">
-                        <ul>
-                            <li><i class="icon-ok"></i> &lt; 1,000,000 emails</li>
-                            <li><i class="icon-ok"></i> Unlimited subscribers</li>
-                            <li><i class="icon-ok"></i> Real-time tracking (opens, clicks, bounces, unsubscribes)</li>
-                            <li><i class="icon-ok"></i> Email authentication</li>
-                            <li><i class="icon-ok"></i> Unlimited support</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-action">
-                        <a href="#requestQuote" data-toggle="modal" class="btn btn-medium btn-theme"><i class="icon-bolt"></i> Ask Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="span3">
-                <div class="pricing-box-alt special">
-                    <div class="pricing-heading">
-                        <h3><strong>Enterprise</strong></h3>
-                    </div>
-                    
-                    <div class="pricing-terms">
-                        <h6>Ask for quote</h6>
-                    </div>
-                    
-                    <div class="pricing-content">
-                        <ul>
-                            <li><i class="icon-ok"></i> &gt;= 1,000,000 emails</li>
-                            <li><i class="icon-ok"></i> Unlimited subscribers</li>
-                            <li><i class="icon-ok"></i> Real-time tracking (opens, clicks, bounces, unsubscribes)</li>
-                            <li><i class="icon-ok"></i> Email authentication</li>
-                            <li><i class="icon-ok"></i> Unlimited support</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-action">
-                        <a href="#requestQuote" data-toggle="modal" class="btn btn-medium btn-theme"><i class="icon-bolt"></i> Ask Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- divider -->
-        <div class="row">
-            <div class="span12">
-                <div class="solidline">
-                </div>
-            </div>
-        </div>
-        <!-- end divider -->
-    </div>
-    </section>
-    <section id="portfolio">
+<section id="portfolio">
     <div class="container">
         <div class="row">
             <div class="span12">
                 <h4>Very satisfied <strong>clients</strong></h4>
-                <div id="mycarousel1" class="touchcarousel black-and-white" style="overflow: visible;">       
+                <div id="mycarousel1" class="touchcarousel black-and-white" style="overflow: visible;">
                     <div class="touchcarousel-wrapper grab-cursor">
                         <ul class="touchcarousel-container clients" style="width: 2735px; left: 0px;">
                             <li class="touchcarousel-item">
                                 <a class="item-block" href="http://www.ida.gov.sg/">
-                                    <img src="img/clients/ida.png" class="client-logo" alt="" />
+                                    <img src="{{ '/img/clients/ida.png' | prepend: site.baseurl }}" class="client-logo" alt="" />
                                 </a>
                             </li>
                             <!-- <li class="touchcarousel-item">
                                 <a class="item-block" href="http://www.msf.gov.sg/">
-                                    <img src="img/clients/msf.png" class="client-logo" alt="" />
+                                    <img src="{{ '/img/clients/msf.png' | prepend: site.baseurl }}" class="client-logo" alt="" />
                                 </a>
                             </li> -->
                             <li class="touchcarousel-item">
                                 <a class="item-block" href="http://www.nus.edu.sg/">
-                                    <img src="img/clients/nus.png" class="client-logo" alt="" />
+                                    <img src="{{ '/img/clients/nus.png' | prepend: site.baseurl }}" class="client-logo" alt="" />
                                 </a>
                             </li>
                             <!-- <li class="touchcarousel-item">
                                 <a class="item-block" href="http://www.sph.com.sg/">
-                                    <img src="img/clients/sph.png" class="client-logo" alt="" />
+                                    <img src="{{ '/img/clients/sph.png' | prepend: site.baseurl }}" class="client-logo" alt="" />
                                 </a>
                             </li>
                             <li class="touchcarousel-item">
                                 <a class="item-block" href="https://www.maxi-cash.com.sg/">
-                                    <img src="img/clients/maxicash.png" class="client-logo" alt="" />
+                                    <img src="{{ '/img/clients/maxicash.png' | prepend: site.baseurl }}" class="client-logo" alt="" />
                                 </a>
                             </li> -->
                             <li class="touchcarousel-item">
                                 <a class="item-block" href="http://www.lboro.ac.uk/">
-                                    <img src="img/clients/loughborough.png" class="client-logo" alt="" />
+                                    <img src="{{ '/img/clients/loughborough.png' | prepend: site.baseurl }}" class="client-logo" alt="" />
                                 </a>
                             </li>
                             <li class="touchcarousel-item">
                                 <a class="item-block" href="https://hoovix.com/">
-                                    <img src="img/clients/hoovix.png" class="client-logo" alt="" />
+                                    <img src="{{ '/img/clients/hoovix.png' | prepend: site.baseurl }}" class="client-logo" alt="" />
                                 </a>
                             </li>
                             <li class="touchcarousel-item">
                                 <a class="item-block" href="http://www.facebook.com/printideas.sg">
-                                    <img src="img/clients/printideas.png" class="client-logo" alt="" />
+                                    <img src="{{ '/img/clients/printideas.png' | prepend: site.baseurl }}" class="client-logo" alt="" />
                                 </a>
                             </li>
                             <!-- <li class="touchcarousel-item">
                                 <a class="item-block" href="http://www.rocktlabs.com/">
-                                    <img src="img/clients/rocktlabs.png" class="client-logo" alt="" />
+                                    <img src="{{ '/img/clients/rocktlabs.png' | prepend: site.baseurl }}" class="client-logo" alt="" />
                                 </a>
                             </li> -->
                             <li class="touchcarousel-item">
                                 <a class="item-block" href="http://medad-tech.com/">
-                                    <img src="img/clients/medad.png" class="client-logo" alt="" />
+                                    <img src="{{ '/img/clients/medad.png' | prepend: site.baseurl }}" class="client-logo" alt="" />
                                 </a>
                             </li>
                             <li class="touchcarousel-item">
                                 <a class="item-block" href="http://angsanadx.com/">
-                                    <img src="img/clients/angsana.png" class="client-logo" alt="" />
+                                    <img src="{{ '/img/clients/angsana.png' | prepend: site.baseurl }}" class="client-logo" alt="" />
                                 </a>
                             </li>
                             <li class="touchcarousel-item">
                                 <a class="item-block" href="http://xpresstuition.com/">
-                                    <img src="img/clients/xpresstuition.png" class="client-logo" alt="" />
+                                    <img src="{{ '/img/clients/xpresstuition.png' | prepend: site.baseurl }}" class="client-logo" alt="" />
                                 </a>
                             </li>
                             <li class="touchcarousel-item">
                                 <a class="item-block" href="http://eleventhstore.com/">
-                                    <img src="img/clients/eleventh.png" class="client-logo" alt="" />
+                                    <img src="{{ '/img/clients/eleventh.png' | prepend: site.baseurl }}" class="client-logo" alt="" />
                                 </a>
                             </li>
                             <!-- <li class="touchcarousel-item">
                                 <a class="item-block" href="http://shilohanimalex.com/">
-                                    <img src="img/clients/shilohanimalex.png" class="client-logo" alt="" />
+                                    <img src="{{ '/img/clients/shilohanimalex.png' | prepend: site.baseurl }}" class="client-logo" alt="" />
                                 </a>
                             </li>
                             <li class="touchcarousel-item">
                                 <a class="item-block" href="http://k9shiloh.com/">
-                                    <img src="img/clients/shiloh.png" class="client-logo" alt="" />
+                                    <img src="{{ '/img/clients/shiloh.png' | prepend: site.baseurl }}" class="client-logo" alt="" />
                                 </a>
                             </li> -->
                             <li class="touchcarousel-item">
                                 <a class="item-block" href="#">
-                                    <img src="img/clients/galaxytrades.png" class="client-logo" alt="" />
+                                    <img src="{{ '/img/clients/galaxytrades.png' | prepend: site.baseurl }}" class="client-logo" alt="" />
                                 </a>
                             </li>
                             <li class="touchcarousel-item">
                                 <a class="item-block" href="http://appriqot.com/">
-                                    <img src="img/clients/appriqot.png" class="client-logo" alt="" />
+                                    <img src="{{ '/img/clients/appriqot.png' | prepend: site.baseurl }}" class="client-logo" alt="" />
                                 </a>
                             </li>
                             <li class="touchcarousel-item">
                                 <a class="item-block" href="http://www.canon.com.sg/">
-                                    <img src="img/clients/canon.png" class="client-logo" alt="" />
+                                    <img src="{{ '/img/clients/canon.png' | prepend: site.baseurl }}" class="client-logo" alt="" />
                                 </a>
                             </li>
                             <li class="touchcarousel-item">
                                 <a class="item-block" href="http://www.neublick.com/">
-                                    <img src="img/clients/neublick.png" class="client-logo" alt="" />
+                                    <img src="{{ '/img/clients/neublick.png' | prepend: site.baseurl }}" class="client-logo" alt="" />
                                 </a>
                             </li>
                         </ul>
@@ -968,145 +122,4 @@
             </div>
         </div>
     </div>
-    </section>
-	<!--
-	<section id="bottom">
-	<div class="container">
-		<div class="row">
-			<div class="span12">
-				<div class="aligncenter">
-					<div id="twitter-wrapper">
-						<div id="twitter">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</section>
-	-->
-	<footer>
-	<div class="container">
-		<div class="row">
-			<div class="span4">
-				<div class="widget">
-					<h5 class="widgetheading">Browse</h5>
-					<ul class="link-list">
-						<li><a href="#">Home</a></li>
-						<li><a href="#services">Services</a></li>
-						<li><a href="#packages">Website Packages</a></li>
-						<li><a href="#email">Email Marketing</a></li>
-            <li><a href="#portfolio">Clients</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="span4">
-				<div class="widget">
-				    <h5><span class="highlight">Request quote</span></h5>
-                    <form class="form-inline" action="//formspree.io/admin@acornomedia.com" method="POST">
-                        <input type="email" name="requestQuoteEmail" id="requestQuoteEmail" class="input-medium" placeholder="Email">
-                        <button type="submit" class="btn">Submit</button>
-                    </form>
-				</div>
-			</div>
-			<div id="contact" class="span4">
-				<div class="widget">
-					<h5 class="widgetheading">Get in touch with us</h5>
-					<address>
-					<strong>Acorno</strong><br>
-					 Singapore </address>
-                    <p>Reg No: 53265312B</p>
-					<p>
-						<!--<i class="icon-phone"></i> (123) 456-7890 - (123) 555-7891 <br>-->
-						<i class="icon-envelope-alt"></i> <a href="mailto:admin@acornomedia.com">admin@acornomedia.com</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="sub-footer">
-		<div class="container">
-			<div class="row">
-				<div class="span6">
-					<div class="copyright">
-						<p>
-							<span>&copy; Acorno Media </span><span id="year"></span><span> All rights reserved.</span>
-						</p>
-					</div>
-				</div>
-				<div class="span6">
-					<ul class="social-network">
-					    <li><a href="http://www.facebook.com/AcornoMedia" data-placement="bottom" title="Facebook"><i class="icon-facebook icon-square"></i></a></li>
-						<li><a href="http://twitter.com/AcornoMedia" data-placement="bottom" title="Twitter"><i class="icon-twitter icon-square"></i></a></li>
-						<!--
-						<li><a href="#" data-placement="bottom" title="Linkedin"><i class="icon-linkedin icon-square"></i></a></li>
-						<li><a href="#" data-placement="bottom" title="Pinterest"><i class="icon-pinterest icon-square"></i></a></li>
-						<li><a href="#" data-placement="bottom" title="Google plus"><i class="icon-google-plus icon-square"></i></a></li>
-						-->
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	</footer>
-</div>
-<a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-32 active"></i></a>
-<!-- javascript
-    ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-
-<script src="js/jquery.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/retina.js"></script>
-<script src="js/jquery.royalslider.min.js"></script>
-<script src="js/jcarousel/jquery.jcarousel.min.js"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/jquery.fancybox-media.js"></script>
-<script src="js/portfolio/jquery.quicksand.js"></script>
-<script src="js/portfolio/setting.js"></script>
-<script src="js/modernizr.custom.79639.js"></script>
-<script src="js/jquery.ba-cond.min.js"></script>
-<script src="js/animate.js"></script>
-<script src="js/jquery.smooth-scroll.min.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/touchcarousel/jquery.touchcarousel-1.2.min.js"></script>
-
-<!-- <script src="js/combined.min.js"></script> -->
-
-<!--
-<script src="js/three.min.js"></script>
-<script src="js/particles.js"></script>
--->
-<script>
-// var node = document.createElement('script');
-// node.type = 'text/javascript';
-// node.async = true;
-// node.src = 'js/three/combined.min.js';
-// // Now insert the node into the DOM, perhaps using insertBefore()
-// var first = document.getElementsByTagName('script')[0];
-// first.parentNode.insertBefore(node, first);
-</script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-49143656-1', 'acornomedia.com');
-  ga('send', 'pageview');
-
-</script>
-<!--Start of Zopim Live Chat Script-->
-<script type="text/javascript">
-window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
-d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
-_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
-$.src="//v2.zopim.com/?3Bmf6aBF5pXlhzva3aJ30pmdOvCd2l1I";z.t=+new Date;$.
-type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
-</script>
-<!--End of Zopim Live Chat Script-->
-</body>
-</html>
+</section>

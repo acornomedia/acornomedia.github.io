@@ -1,0 +1,102 @@
+---
+layout: default
+---
+
+<section id="inner-headline">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <div class="inner-heading">
+                    <h2>Blog</h2>
+                </div>
+            </div>
+            <div class="span12">
+                <ul class="breadcrumb">
+                    <li><a href="{{ site.baseurl }}">Home</a><i class="icon-angle-right"></i></li>
+                    <li><a href="{{ '/blog' | prepend: site.baseurl }}">Blog</a><i class="icon-angle-right"></i></li>
+                    <li><a href="{{ page.category | prepend: '/blog/' | prepend: site.baseurl }}">{{ page.category }}</a><i class="icon-angle-right"></i></li>
+                    <li class="active">{{ page.title }}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="content">
+    <div class="container">
+        <div class="row">
+            <div class="span8">
+                <article>
+                    <div class="row">
+                        <div class="span8">
+                            <div class="post-image">
+                                <div class="post-heading">
+                                    <h3><a href="#">{{ page.title }}</a></h3>
+                                </div>
+                                {% if page.image %}
+                                <img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }}" />
+                                {% endif %}
+                            </div>
+                            <div class="bottom-article">
+                                <ul class="meta-post">
+                                    <li><i class="icon-calendar"></i><a href="#"> {{ page.date | date: '%B %d, %Y' }}</a></li>
+                                    <li><i class="icon-user"></i><a href="#"> Admin</a></li>
+                                    <li><i class="icon-folder-open"></i><a href="{{ page.category | prepend: '/blog/' | prepend: site.baseurl }}"> {{ page.category }}</a></li>
+                                    <li><i class="icon-tags"></i><a href="#"> {{ page.tags | array_to_sentence_string }}</a></li>
+                                    <li><i class="icon-time"></i><a href="#"> {{ page.content | number_of_words | divided_by:180 }}</span> Minute Read</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="clearfix"></div><br>
+                            
+                            {{ content }}
+
+                            <!-- POST NAVIGATION -->
+                            <div class="postNav clearfix">
+                                {% if page.previous.url %} 
+                                    <a class="prev{% if page.previous.image %} image{% endif %}" href="{{ page.previous.url | prepend: site.baseurl }}"><span>&laquo;&nbsp;{{ page.previous.title }}</span>
+                                    {% if page.previous.image %} 
+                                        <img src="{{ '/assets/img/' | prepend: site.baseurl | append: page.previous.image }}" alt="">
+                                    {% endif %}
+                                    </a>
+                                {% endif %}  
+                                {% if page.next.url %}  
+                                    <a class="next{% if page.next.image %} image{% endif %}" href="{{ page.next.url | prepend: site.baseurl }}"><span>{{ page.next.title }}&nbsp;&raquo;</span>
+                                    {% if page.next.image %} 
+                                        <img src="{{ '/assets/img/' | prepend: site.baseurl | append: page.next.image }}" alt="">
+                                    {% endif %} 
+                                    </a>
+                                {% endif %} 
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- author info -->
+                <!-- <div class="about-author">
+                    <a href="#" class="thumbnail align-left"><img src="img/avatar.png" alt="" /></a>
+                    <h5><strong><a href="#">John doe</a></strong></h5>
+                    <p>
+                        Qui ut ceteros comprehensam. Cu eos sale sanctus eligendi, id ius elitr saperet, ocurreret pertinacia pri an. No mei nibh consectetuer, semper ad qui, est rebum nulla argumentum ei.
+                    </p>
+                </div> -->
+            </div>
+            <div class="span4">
+                <aside class="right-sidebar">
+                    {% include about_widget.html %}
+
+                    <!-- <div class="widget">
+                        <form class="form-search">
+                            <input placeholder="Type something" type="text" class="input-medium search-query">
+                            <button type="submit" class="btn btn-square btn-theme">Search</button>
+                        </form>
+                    </div> -->
+
+                    {% include categories_widget.html %}
+                    
+                    {% include posts_widget.html %}
+                    
+                    {% include tags_widget.html %}
+                </aside>
+            </div>
+        </div>
+    </div>
+</section>

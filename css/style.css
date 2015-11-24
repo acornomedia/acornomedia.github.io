@@ -764,7 +764,9 @@ section.callaction {
 ==================================== */
 
 #inner-headline{
-	background:#252525;
+	/*background:#252525;*/
+	/*background:#a35c02;*/
+	background:#9ac33c;
 	position:relative;
 	margin:0;
 	padding:0;
@@ -779,8 +781,8 @@ section.callaction {
 
 /* --- breadcrumbs --- */
 #inner-headline ul.breadcrumb {
-	margin:30px 0 0;
-	float:right;
+	/*margin:30px 0 0;*/
+	/*float:right;*/
 }
 
 #inner-headline ul.breadcrumb li {
@@ -1689,6 +1691,10 @@ ul.meta-post li a{
     font-weight: bold;
 }
 
+.postNav a:nth-child(2) {
+	float: right;
+}
+
 
 /* ===============================
 15. Aside, sidebar
@@ -1760,6 +1766,7 @@ ul.folio-detail li label{
 
 ul.recent li h6 {
 	margin:0 0 10px 0;
+	line-height: 22.4px;
 }
 
 ul.recent li h6 a{

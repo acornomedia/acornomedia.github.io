@@ -1,0 +1,44 @@
+name: "Acorno Media - Websites, Applications, Mobile Apps, IT Systems in Singapore"
+title: "Acorno Media - Websites, Applications, Mobile Apps, IT Systems in Singapore"
+description: "Acorno Media is a tech and design studio that provides solutions such as websites, web applications, mobile applications as well as customized applications including ERP / CMS systems."
+keywords: "acorno, media, website, application, mobile, design, online, cms, ecommerce, crm, erp, digital, wordpress, responsive, webpage, blog, system, functional, pretty, ui, ux, interactive, social, media, customizable, solutions, comprehensive, html, javascript, css"
+author: "Eric Lu"
+email: admin@acornomedia.com
+
+url: http://www.acornomedia.com
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:categories/:title.html
+
+markdown: redcarpet
+highlighter: pygments
+paginate: 5
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: Blog
+   url: /blog/
+ - title: Services
+   url: /index.html#services
+ - title: Website Packages
+   url: /index.html#packages
+ - title: Email Marketing
+   url: /index.html#email
+ - title: Clients
+   url: /index.html#portfolio
+ - title: Contact
+   url: /index.html#contact
+
+
+social:
+   github: acornomedia
+   twitter: acornomedia
+   facebook: acornomedia
+
+google_analytics: "UA-49143656-1"
+
+gems:
+ - jekyll-paginate
+ - jekyll-feed
+ - jekyll-sitemap

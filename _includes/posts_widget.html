@@ -1,0 +1,14 @@
+<div class="widget">
+    <h5 class="widgetheading">Latest posts</h5>
+    <ul class="recent">
+        {% for post in site.posts limit:5 %}
+            <li>
+                {% if post.image %}
+                <img src="{{ post.image | prepend: site.baseurl }}" class="pull-left" alt="{{ post.title }}" />
+                {% endif %}
+                <h6><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h6>
+                <p>{% if post.description %}{{ post.description | strip_html | strip_newlines | truncate: 100 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 100 }}{% endif %}</p>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

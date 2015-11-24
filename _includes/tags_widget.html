@@ -1,0 +1,16 @@
+<div class="widget">
+    <h5 class="widgetheading">Popular tags</h5>
+    <ul class="tags">
+        {% assign tags_list = site.tags %}  
+            {% if tags_list.first[0] == null %}
+            {% for tag in tags_list %} 
+                <li><a href="{{ tag | prepend: '/blog/tags/' | prepend: site.baseurl }}">{{ tag }}</a></li>
+            {% endfor %}
+            {% else %}
+            {% for tag in tags_list %} 
+                <li><a href="{{ tag[0] | prepend: '/blog/tags/' | prepend: site.baseurl }}">{{ tag[0] }}</a></li>
+            {% endfor %}
+            {% endif %}
+        {% assign tags_list = nil %}
+    </ul>
+</div>
