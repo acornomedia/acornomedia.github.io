@@ -56,4 +56,4 @@ And for front-end developers, it would be very useful to know about the [Jekyll]
 
 ---
 
-If you are a front-end developer creating static sites for your clients, now you have a more than excellent choice to host your client's static site, or even your own static site or blog.
+If you are a front-end developer creating static sites for your clients, now you have a **more than excellent** choice to host your client's static site, or even your own static site or blog.
