@@ -112,7 +112,7 @@ layout: default
     "image": "{{ site.url }}/assets/img/logo@2x.png",
     {% endif %}
     "datePublished": "{{ page.date | date: '%F' }}",
-    "description": "{{ page.description }}",
+    "description": "{{ page.excerpt }}",
     "wordCount": {{ page.content | number_of_words }}
 }
 </script>
