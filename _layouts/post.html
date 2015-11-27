@@ -100,3 +100,19 @@ layout: default
         </div>
     </div>
 </section>
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "{{ page.title }}",
+    {% if page.image %}
+    "image": "{{ '/assets/img/' | prepend: site.baseurl | append: page.image }}",
+    {% else %}
+    "image": "{{ '/assets/img/' | prepend: site.baseurl | append: 'logo@2x.png' }}",
+    {% endif %}
+    "datePublished": "{{ page.date | date: '%F' }}",
+    "description": "{{ page.description }}",
+    "wordCount": {{ page.content | number_of_words }}
+}
+</script>
