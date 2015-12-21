@@ -2,8 +2,8 @@
 layout: post
 title:  "How to save your emails from Gmail Promotions?"
 date:   2015-12-20
-category: "Transactional emails"
-tags: ["EDM", "Gmail", "Google", "Marketing", "Email Markup"]
+category: "Emails"
+tags: ["EDM", "Transactional Emails", "Gmail", "Google", "Marketing", "Email Markup"]
 ---
 
 Since the introduction of Gmail's new Promotions tab, many have found their emails sent into their receivers' Gmail Promotions tab instead of the Primary tab. This can indeed be pretty problematic when that happens to your **transactional emails** instead, because your newly signed up customers or users would be missing out on your important emails. It does seem that Google's engine may not be that smart after all.
