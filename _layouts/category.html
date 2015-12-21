@@ -8,7 +8,7 @@ title: Category | Acorno Media - Websites, Applications, Mobile Apps, IT Systems
         <div class="row">
             <div class="span12">
                 <div class="inner-heading">
-                    <h2>Blog ({{ page.title }})</h2>
+                    <h2>Blog ({{ page.category | capitalize }})</h2>
                 </div>
             </div>
             <div class="span12">
@@ -42,7 +42,7 @@ title: Category | Acorno Media - Websites, Applications, Mobile Apps, IT Systems
                                     <ul class="meta-post">
                                         <li><i class="icon-calendar"></i><a href="#"> {{ post.date | date: '%B %d, %Y' }}</a></li>
                                         <li><i class="icon-user"></i><a href="#"> Admin</a></li>
-                                        <li><i class="icon-folder-open"></i><a href="{{ post.category | prepend: '/blog/' | prepend: site.baseurl }}"> {{ post.category }}</a></li>
+                                        <li><i class="icon-folder-open"></i><a href="{{ post.category | prepend: '/blog/' | prepend: site.baseurl }}"> {{ post.category | capitalize }}</a></li>
                                         <li><i class="icon-tags"></i><a href="#"> {{ post.tags | array_to_sentence_string }}</a></li>
                                         <li><i class="icon-time"></i><a href="#"> {{ post.content | number_of_words | divided_by:180 }} minutes</a></li>
                                         <!-- <li><i class="icon-comments"></i><a href="#">4 Comments</a></li> -->
