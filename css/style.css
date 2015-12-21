@@ -1603,6 +1603,10 @@ ul.meta-post li a{
 	float:left;
 	font-size:12px;
 	font-weight:600;
+    max-width:100px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
 }
 
 /* --- single post --- */
