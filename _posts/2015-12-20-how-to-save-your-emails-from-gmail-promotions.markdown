@@ -2,7 +2,7 @@
 layout: post
 title:  "How to save your emails from Gmail Promotions?"
 date:   2015-12-20
-category: "Transactional Emails"
+category: "Transactional emails"
 tags: ["EDM", "Gmail", "Google", "Marketing", "Email Markup"]
 ---
 
