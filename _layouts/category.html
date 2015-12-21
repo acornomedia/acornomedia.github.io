@@ -15,7 +15,7 @@ title: Category | Acorno Media - Websites, Applications, Mobile Apps, IT Systems
                 <ul class="breadcrumb">
                     <li><a href="{{ site.baseurl }}"><i class="icon-home"></i></a><i class="icon-angle-right"></i></li>
                     <li><a href="{{ '/blog' | prepend: site.baseurl }}">Blog</a><i class="icon-angle-right"></i></li>
-                    <li class="active">{{ page.category }}</li>
+                    <li class="active">{{ page.category | capitalize }}</li>
                 </ul>
             </div>
         </div>
