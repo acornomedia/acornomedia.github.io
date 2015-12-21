@@ -2,7 +2,7 @@
 layout: post
 title:  "Have you started using Github Pages?"
 date:   2015-11-24
-category: "Hosting"
+category: "hosting"
 tags: ["Github Pages", "Jekyll", "Website"]
 ---
 
