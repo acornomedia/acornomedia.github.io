@@ -5,7 +5,7 @@ keywords: "acorno, media, website, application, mobile, design, online, cms, eco
 author: "Eric Lu"
 email: admin@acornomedia.com
 
-url: http://www.acornomedia.com
+url: https://www.acornomedia.com
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:categories/:title.html
