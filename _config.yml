@@ -10,7 +10,7 @@ baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:categories/:title.html
 
-highlighter: pygments
+highlighter: rouge
 paginate: 5
 
 navigation:
