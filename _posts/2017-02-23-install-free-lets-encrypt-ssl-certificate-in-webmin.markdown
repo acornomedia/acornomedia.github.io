@@ -96,3 +96,5 @@ Click on the "Request Certificate" button.
 #### Step 4 — Done ####
 
 Refresh your Webmin interface at "https://%HOST_NAME%:10000/" again and you will notice that the site is now properly secured via HTTPS with no browser warnings.
+
+This article first appeared [here](https://www.ericluwj.com/2016/12/07/configuring-an-application-load-balancer-on-aws-elastic-beanstalk.html).
