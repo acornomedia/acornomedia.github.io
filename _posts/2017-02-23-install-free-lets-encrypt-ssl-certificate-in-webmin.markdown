@@ -1,17 +1,14 @@
 ---
-published: true
----
----
 layout: post
 title:  "Install Free Let's Encrypt SSL Certificate in Webmin on Ubuntu"
 date:   2017-02-23
 category: "hosting"
-tags: ["EDM", "Transactional Emails", "Gmail", "Google", "Marketing", "Email Markup"]
+tags: ["Webmin", "Let's Encrypt", "Ubuntu"]
 ---
 
-Let's Encrypt SSL certificates are all the rage now, because finally, you can get free SSL certificates instantly from the server. What benefit can be more obvious than using a free SSL certificate within Webmin itself? After all, you are probably using Webmin because it's free. So let's start installing this SSL certificate.
+Let's Encrypt SSL certificates are all the rage now, because finally, you can get free SSL certificates instantly from the server. What benefit can be more obvious than using a free SSL certificate for Webmin itself? After all, you are probably using Webmin because it's a great free tool. So let's start installing this SSL certificate right away.
 
-This is currently the easiest guide to installing the SSL cerficate from Let's Encrypt into Webmin on the **Ubuntu operating system**.
+This is currently the **easiest** guide to installing the SSL cerficate from Let's Encrypt into Webmin on the **Ubuntu operating system**.
 
 #### Step 1 — Check Webmin Version ####
 
@@ -81,7 +78,7 @@ Then click on the "Save" button.
 
 ![Save Button]({{site.baseurl}}/img/uploads/Screen Shot 2017-02-23 at 1.55.05 PM.png)
 
-Navigate to `Webmin \> Webmin Configuration` again.
+Navigate to `Webmin > Webmin Configuration` again.
 
 Now, click on the box "SSL Encryption".
 
